@@ -1,20 +1,13 @@
-/* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Basic styling */
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-/* Navigation styles */
 header {
-    background-color: #2C3E50;
+    background-color: #34495e;
     color: white;
     padding: 20px 0;
 }
@@ -23,33 +16,29 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85%;
-    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.nav-links {
-    list-style: none;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-links li {
+nav ul li {
     display: inline;
-    margin-left: 20px;
+    margin: 0 15px;
 }
 
-.nav-links a {
+nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-/* Hero section styles */
+/* Hero Section */
 .hero {
-    background-image: url('https://via.placeholder.com/1600x600');
+    background-image: url('hero-image.jpg');
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -61,101 +50,44 @@ nav {
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 50px;
 }
 
 .hero p {
-    font-size: 24px;
-    margin: 20px 0;
+    font-size: 20px;
 }
 
 .cta-button {
-    background-color: #E74C3C;
+    background-color: #e74c3c;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    font-weight: bold;
     border-radius: 5px;
 }
 
 .cta-button:hover {
-    background-color: #C0392B;
+    background-color: #c0392b;
 }
 
-/* About section styles */
-.about-section {
-    background-color: white;
+/* Solutions Section */
+.solutions-section {
     padding: 40px 20px;
+    background-color: #ecf0f1;
+}
+
+.solution-item {
+    margin: 20px 0;
+}
+
+.cta {
     text-align: center;
-}
-
-.about-section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-/* Programs section */
-.programs-section {
-    background-color: #ECF0F1;
     padding: 40px 20px;
+    background-color: #bdc3c7;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
     text-align: center;
-}
-
-.program-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.program-item {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     padding: 20px;
-    margin: 10px;
-    width: 30%;
-}
-
-.program-item h3 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-/* Mission section */
-.mission-section {
-    background-color: #BDC3C7;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.mission-section h2 {
-    font-size: 36px;
-}
-
-.mission-section p {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-/* Footer styles */
-.footer {
-    background-color: #2C3E50;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
-}
-
-.footer h3 {
-    margin-bottom: 10px;
-}
-
-.footer p {
-    font-size: 14px;
-}
-
-.footer a {
-    color: white;
-    text-decoration: none;
 }
