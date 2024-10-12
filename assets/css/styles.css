@@ -32,10 +32,12 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
+    position: relative; /* Needed for dropdown */
 }
 
 nav ul li {
     margin-left: 25px;
+    position: relative; /* For dropdown positioning */
 }
 
 nav ul li a {
@@ -47,6 +49,41 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Positions it just below the "Schools" link */
+    left: 0;
+    background-color: #003366; /* Same dark blue as the header */
+    padding: 10px 0;
+    list-style: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 180px;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #00509e;
+    color: white;
+}
+
+/* Show the dropdown menu on hover */
+nav ul li:hover .dropdown-menu {
+    display: block;
 }
 
 /* Container for centering content */
