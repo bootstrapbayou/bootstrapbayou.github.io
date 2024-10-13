@@ -12,6 +12,7 @@ html, body {
     font-size: 18px;
     line-height: 1.7;
     overflow-x: hidden;
+    padding: 0 40px; /* Adds padding for centering content on the page */
 }
 
 /* Header Section */
@@ -92,7 +93,7 @@ nav ul li:hover .dropdown-menu {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px; /* Padding for the sides */
+    padding: 0 40px; /* Adds padding for the sides */
 }
 
 /* Main content section */
@@ -107,16 +108,18 @@ main h2 {
     font-weight: bold;
     color: #003366; /* Matches the header for brand consistency */
     margin-bottom: 20px;
+    padding: 0 40px; /* Adds padding to headings */
 }
 
 main p, main li {
     margin-bottom: 20px;
     line-height: 1.8;
     font-size: 18px;
+    padding: 0 40px; /* Adds padding to paragraphs and list items */
 }
 
 main ul {
-    margin-left: 20px;
+    margin-left: 60px;
     list-style: disc;
 }
 
@@ -125,7 +128,7 @@ main ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible grid */
     gap: 20px;
-    padding: 40px 20px;
+    padding: 40px 40px; /* Adds padding for grid layout */
     max-width: 1200px;
     margin: 0 auto;
 }
