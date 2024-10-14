@@ -23018,9 +23018,10 @@ body {
 
 .page .text-highlight {
     background-color: #000;
-    color: #FFF; /* Adjust text color to ensure readability */
+    color: #36454F; /* Adjust text color to ensure readability */
     padding: 8px 10px;
     border-radius: 3px; /* Optional: adds rounded corners */
+	opacity: 0.5;
 }
 
 /** 2.21 Navs Addons */
