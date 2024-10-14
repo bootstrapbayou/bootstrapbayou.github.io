@@ -42393,3 +42393,10 @@ html:not(.lt-ie10) .not-animated {
 		display: inline-flex;
 	}
 }
+
+.text-highlight {
+    background-color: black;
+    color: white; /* Adjust text color to ensure readability */
+    padding: 2px 4px;
+    border-radius: 3px; /* Optional: adds rounded corners */
+}
