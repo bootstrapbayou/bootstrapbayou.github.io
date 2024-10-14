@@ -23018,7 +23018,6 @@ body {
 
 .page .text-highlight {
     background-color: #000;
-    color: #333; /* Adjust text color to ensure readability */
     padding:10px 12px;
     border-radius: 3px; /* Optional: adds rounded corners */
 	opacity: 0.5;
