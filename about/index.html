@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html class="wide wow-animation scrollTo" lang="en">
 
+<!-- Load the head component dynamically -->
+<script>
+  // Fetch and insert the head component
+  fetch('/components/head.html')
+    .then(response => response.text())
+    .then(data => {
+      document.write(data); // Inserts the <head> content into the document
+    });
+</script>
+
 <body>
     <div class="page text-center">
         <!-- Header Placeholder -->
         <div id="header-placeholder"></div>
 
-        <!-- Main content goes here -->
+        <!-- Main Content Starts Here -->
+        <main>
+            <section class="section">
+                <div class="container">
+                    <h1>Welcome to Silicon Pulse University</h1>
+                    <p>This is the homepage of the case study site showcasing Microsoft 365, Azure, and Service Desk Plus solutions.</p>
+                </div>
+            </section>
+        </main>
 
         <!-- Footer Placeholder -->
         <div id="footer-placeholder"></div>
@@ -28,6 +46,8 @@
           document.getElementById('footer-placeholder').innerHTML = data;
         });
     </script>
+
+    <!-- Main JavaScript Files -->
     <script src="/assets/js/core.min.js"></script>
     <script src="/assets/js/script.js"></script>
 </body>
