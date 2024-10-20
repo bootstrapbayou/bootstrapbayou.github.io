@@ -42411,7 +42411,7 @@ html:not(.lt-ie10) .not-animated {
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease;
-	padding: 9px 9px;
+	padding: 12px 12px;
 }
 
 .project-box:hover {
