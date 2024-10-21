@@ -47082,37 +47082,55 @@ p.text-white {
 	line-height: 1.5;
 }
 
-.accordion-container {
-	margin-top: 40px;
-	max-width: 850px;
+.table-container {
+	overflow-x: auto;
 	margin: 0 auto;
+	max-width: 900px;
 }
 
-.accordion-item {
-	margin-bottom: 10px;
+.project-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+}
+
+.project-table th,
+.project-table td {
+	padding: 15px;
+	text-align: left;
+	vertical-align: top;
 	border: 1px solid #ccc;
-	border-radius: 5px;
-	overflow: hidden;
 }
 
-.accordion-toggle {
-	display: none;
-}
-
-.accordion-title {
+.project-table th {
 	background-color: #0056b3;
 	color: #fff;
-	padding: 15px 20px;
-	cursor: pointer;
+	text-align: center;
+}
+
+.table-title {
+	width: 30%;
 	font-weight: bold;
+	background-color: #f1f1f1;
 }
 
-.accordion-content {
-	padding: 15px 20px;
-	background-color: #f9f9f9;
-	display: none;
+.table-content {
+	width: 70%;
+	padding-left: 15px;
 }
 
-.accordion-toggle:checked+.accordion-title+.accordion-content {
-	display: block;
+.table-header {
+	font-size: 18px;
+	background-color: #003f8a;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+}
+
+.list-marked {
+	padding-left: 20px;
+}
+
+.list-marked li {
+	margin-bottom: 5px;
 }
